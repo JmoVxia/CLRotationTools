@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B61B8B31EE1204F0048D0C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8B21EE1204F0048D0C1 /* main.m */; };
+		5B61B8B61EE1204F0048D0C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8B51EE1204F0048D0C1 /* AppDelegate.m */; };
+		5B61B8BE1EE1204F0048D0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B61B8BD1EE1204F0048D0C1 /* Assets.xcassets */; };
+		5B61B8C11EE1204F0048D0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B61B8BF1EE1204F0048D0C1 /* LaunchScreen.storyboard */; };
+		5B61B8E91EE120EE0048D0C1 /* AppDelegate+CLRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8E61EE120EE0048D0C1 /* AppDelegate+CLRotation.m */; };
+		5B61B8EA1EE120EE0048D0C1 /* CLRotationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8E81EE120EE0048D0C1 /* CLRotationTools.m */; };
+		5B61B8EC1EE121010048D0C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B61B8EB1EE121010048D0C1 /* Main.storyboard */; };
+		5B61B8F11EE121110048D0C1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8EE1EE121110048D0C1 /* ViewController1.m */; };
+		5B61B8F21EE121110048D0C1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8F01EE121110048D0C1 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B61B8AE1EE1204F0048D0C1 /* CLRotationToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLRotationToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B61B8B21EE1204F0048D0C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B61B8B41EE1204F0048D0C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B61B8B51EE1204F0048D0C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B61B8BD1EE1204F0048D0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B61B8C01EE1204F0048D0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B61B8C21EE1204F0048D0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B61B8E51EE120EE0048D0C1 /* AppDelegate+CLRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CLRotation.h"; sourceTree = "<group>"; };
+		5B61B8E61EE120EE0048D0C1 /* AppDelegate+CLRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CLRotation.m"; sourceTree = "<group>"; };
+		5B61B8E71EE120EE0048D0C1 /* CLRotationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRotationTools.h; sourceTree = "<group>"; };
+		5B61B8E81EE120EE0048D0C1 /* CLRotationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRotationTools.m; sourceTree = "<group>"; };
+		5B61B8EB1EE121010048D0C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5B61B8ED1EE121110048D0C1 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		5B61B8EE1EE121110048D0C1 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		5B61B8EF1EE121110048D0C1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		5B61B8F01EE121110048D0C1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B61B8AB1EE1204F0048D0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B61B8A51EE1204F0048D0C1 = {
+			isa = PBXGroup;
+			children = (
+				5B61B8B01EE1204F0048D0C1 /* CLRotationToolsDemo */,
+				5B61B8AF1EE1204F0048D0C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B61B8AF1EE1204F0048D0C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B61B8AE1EE1204F0048D0C1 /* CLRotationToolsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B61B8B01EE1204F0048D0C1 /* CLRotationToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B61B8B41EE1204F0048D0C1 /* AppDelegate.h */,
+				5B61B8B51EE1204F0048D0C1 /* AppDelegate.m */,
+				5B61B8ED1EE121110048D0C1 /* ViewController1.h */,
+				5B61B8EE1EE121110048D0C1 /* ViewController1.m */,
+				5B61B8EF1EE121110048D0C1 /* ViewController2.h */,
+				5B61B8F01EE121110048D0C1 /* ViewController2.m */,
+				5B61B8E41EE120DB0048D0C1 /* CLRotationTools */,
+				5B61B8B11EE1204F0048D0C1 /* Supporting Files */,
+			);
+			path = CLRotationToolsDemo;
+			sourceTree = "<group>";
+		};
+		5B61B8B11EE1204F0048D0C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B61B8EB1EE121010048D0C1 /* Main.storyboard */,
+				5B61B8BD1EE1204F0048D0C1 /* Assets.xcassets */,
+				5B61B8BF1EE1204F0048D0C1 /* LaunchScreen.storyboard */,
+				5B61B8C21EE1204F0048D0C1 /* Info.plist */,
+				5B61B8B21EE1204F0048D0C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B61B8E41EE120DB0048D0C1 /* CLRotationTools */ = {
+			isa = PBXGroup;
+			children = (
+				5B61B8E71EE120EE0048D0C1 /* CLRotationTools.h */,
+				5B61B8E81EE120EE0048D0C1 /* CLRotationTools.m */,
+				5B61B8E51EE120EE0048D0C1 /* AppDelegate+CLRotation.h */,
+				5B61B8E61EE120EE0048D0C1 /* AppDelegate+CLRotation.m */,
+			);
+			path = CLRotationTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B61B8AD1EE1204F0048D0C1 /* CLRotationToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B61B8DB1EE1204F0048D0C1 /* Build configuration list for PBXNativeTarget "CLRotationToolsDemo" */;
+			buildPhases = (
+				5B61B8AA1EE1204F0048D0C1 /* Sources */,
+				5B61B8AB1EE1204F0048D0C1 /* Frameworks */,
+				5B61B8AC1EE1204F0048D0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLRotationToolsDemo;
+			productName = CLRotationToolsDemo;
+			productReference = 5B61B8AE1EE1204F0048D0C1 /* CLRotationToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B61B8A61EE1204F0048D0C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JmoVxia;
+				TargetAttributes = {
+					5B61B8AD1EE1204F0048D0C1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 533J5B8T42;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B61B8A91EE1204F0048D0C1 /* Build configuration list for PBXProject "CLRotationToolsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B61B8A51EE1204F0048D0C1;
+			productRefGroup = 5B61B8AF1EE1204F0048D0C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B61B8AD1EE1204F0048D0C1 /* CLRotationToolsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B61B8AC1EE1204F0048D0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B61B8EC1EE121010048D0C1 /* Main.storyboard in Resources */,
+				5B61B8C11EE1204F0048D0C1 /* LaunchScreen.storyboard in Resources */,
+				5B61B8BE1EE1204F0048D0C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B61B8AA1EE1204F0048D0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B61B8F11EE121110048D0C1 /* ViewController1.m in Sources */,
+				5B61B8EA1EE120EE0048D0C1 /* CLRotationTools.m in Sources */,
+				5B61B8B61EE1204F0048D0C1 /* AppDelegate.m in Sources */,
+				5B61B8B31EE1204F0048D0C1 /* main.m in Sources */,
+				5B61B8E91EE120EE0048D0C1 /* AppDelegate+CLRotation.m in Sources */,
+				5B61B8F21EE121110048D0C1 /* ViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B61B8BF1EE1204F0048D0C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B61B8C01EE1204F0048D0C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B61B8D91EE1204F0048D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B61B8DA1EE1204F0048D0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B61B8DC1EE1204F0048D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 533J5B8T42;
+				INFOPLIST_FILE = CLRotationToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.CLRotationToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B61B8DD1EE1204F0048D0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 533J5B8T42;
+				INFOPLIST_FILE = CLRotationToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.CLRotationToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B61B8A91EE1204F0048D0C1 /* Build configuration list for PBXProject "CLRotationToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B61B8D91EE1204F0048D0C1 /* Debug */,
+				5B61B8DA1EE1204F0048D0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B61B8DB1EE1204F0048D0C1 /* Build configuration list for PBXNativeTarget "CLRotationToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B61B8DC1EE1204F0048D0C1 /* Debug */,
+				5B61B8DD1EE1204F0048D0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B61B8A61EE1204F0048D0C1 /* Project object */;
+}
