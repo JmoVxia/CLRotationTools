@@ -12,10 +12,10 @@
 		5B61B8BE1EE1204F0048D0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B61B8BD1EE1204F0048D0C1 /* Assets.xcassets */; };
 		5B61B8C11EE1204F0048D0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B61B8BF1EE1204F0048D0C1 /* LaunchScreen.storyboard */; };
 		5B61B8E91EE120EE0048D0C1 /* AppDelegate+CLRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8E61EE120EE0048D0C1 /* AppDelegate+CLRotation.m */; };
-		5B61B8EA1EE120EE0048D0C1 /* CLRotationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8E81EE120EE0048D0C1 /* CLRotationTools.m */; };
 		5B61B8EC1EE121010048D0C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B61B8EB1EE121010048D0C1 /* Main.storyboard */; };
 		5B61B8F11EE121110048D0C1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8EE1EE121110048D0C1 /* ViewController1.m */; };
 		5B61B8F21EE121110048D0C1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B61B8F01EE121110048D0C1 /* ViewController2.m */; };
+		5BB4D0C71F303957007A1742 /* UIViewController+CLRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4D0C61F303957007A1742 /* UIViewController+CLRotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,13 +28,13 @@
 		5B61B8C21EE1204F0048D0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B61B8E51EE120EE0048D0C1 /* AppDelegate+CLRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CLRotation.h"; sourceTree = "<group>"; };
 		5B61B8E61EE120EE0048D0C1 /* AppDelegate+CLRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CLRotation.m"; sourceTree = "<group>"; };
-		5B61B8E71EE120EE0048D0C1 /* CLRotationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRotationTools.h; sourceTree = "<group>"; };
-		5B61B8E81EE120EE0048D0C1 /* CLRotationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRotationTools.m; sourceTree = "<group>"; };
 		5B61B8EB1EE121010048D0C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5B61B8ED1EE121110048D0C1 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		5B61B8EE1EE121110048D0C1 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		5B61B8EF1EE121110048D0C1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		5B61B8F01EE121110048D0C1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		5BB4D0C51F303957007A1742 /* UIViewController+CLRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLRotation.h"; sourceTree = "<group>"; };
+		5BB4D0C61F303957007A1742 /* UIViewController+CLRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLRotation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +94,10 @@
 		5B61B8E41EE120DB0048D0C1 /* CLRotationTools */ = {
 			isa = PBXGroup;
 			children = (
-				5B61B8E71EE120EE0048D0C1 /* CLRotationTools.h */,
-				5B61B8E81EE120EE0048D0C1 /* CLRotationTools.m */,
 				5B61B8E51EE120EE0048D0C1 /* AppDelegate+CLRotation.h */,
 				5B61B8E61EE120EE0048D0C1 /* AppDelegate+CLRotation.m */,
+				5BB4D0C51F303957007A1742 /* UIViewController+CLRotation.h */,
+				5BB4D0C61F303957007A1742 /* UIViewController+CLRotation.m */,
 			);
 			path = CLRotationTools;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B61B8F11EE121110048D0C1 /* ViewController1.m in Sources */,
-				5B61B8EA1EE120EE0048D0C1 /* CLRotationTools.m in Sources */,
 				5B61B8B61EE1204F0048D0C1 /* AppDelegate.m in Sources */,
 				5B61B8B31EE1204F0048D0C1 /* main.m in Sources */,
+				5BB4D0C71F303957007A1742 /* UIViewController+CLRotation.m in Sources */,
 				5B61B8E91EE120EE0048D0C1 /* AppDelegate+CLRotation.m in Sources */,
 				5B61B8F21EE121110048D0C1 /* ViewController2.m in Sources */,
 			);

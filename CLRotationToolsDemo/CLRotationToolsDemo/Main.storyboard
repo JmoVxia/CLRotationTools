@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YIe-Ox-cO1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YIe-Ox-cO1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,7 +31,7 @@
         <!--Item-->
         <scene sceneID="iL9-XI-tx4">
             <objects>
-                <viewController id="HvD-E7-dzR" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="HvD-E7-dzR" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hxy-bS-I7I"/>
                         <viewControllerLayoutGuide type="bottom" id="bks-un-6f3"/>
@@ -58,7 +58,7 @@
                                     <color key="titleColor" red="1" green="0.15988052255424889" blue="0.13026583265816738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xLZ-c4-ve3" kind="show" id="NO9-sr-pyn"/>
+                                    <segue destination="xLZ-c4-ve3" kind="presentation" id="NO9-sr-pyn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="-290" y="-178"/>
         </scene>
-        <!--View Controller2-->
+        <!--View Controller1-->
         <scene sceneID="qqP-aw-uai">
             <objects>
-                <viewController id="xLZ-c4-ve3" customClass="ViewController2" sceneMemberID="viewController">
+                <viewController id="xLZ-c4-ve3" customClass="ViewController1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Nj-H6-vnA"/>
                         <viewControllerLayoutGuide type="bottom" id="Q4I-IT-mLg"/>
@@ -107,7 +107,7 @@
                                     <color key="titleColor" red="1" green="0.15988052255424889" blue="0.13026583265816738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="dissMissAction:" destination="xLZ-c4-ve3" eventType="touchUpInside" id="cSO-na-Qix"/>
+                                    <action selector="dissMiss:" destination="xLZ-c4-ve3" eventType="touchUpInside" id="svO-VS-FUt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -182,7 +182,7 @@
         <!--支持旋转-->
         <scene sceneID="vle-7q-i8v">
             <objects>
-                <viewController id="hVa-bW-LlA" customClass="ViewController1" sceneMemberID="viewController">
+                <viewController id="hVa-bW-LlA" customClass="ViewController2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m47-7q-8Ff"/>
                         <viewControllerLayoutGuide type="bottom" id="iZv-aC-DNC"/>
@@ -190,13 +190,30 @@
                     <view key="view" contentMode="scaleToFill" id="BZm-p6-mgy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiE-FK-Tz6">
+                                <rect key="frame" x="121" y="319" width="133" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="GEJ-sa-jxz"/>
+                                </constraints>
+                                <state key="normal" title="切换不支持旋转"/>
+                                <connections>
+                                    <action selector="change:" destination="hVa-bW-LlA" eventType="touchUpInside" id="Q0W-pM-pis"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.90134661779820624" blue="0.85895759810916827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wiE-FK-Tz6" firstAttribute="centerY" secondItem="BZm-p6-mgy" secondAttribute="centerY" id="1ih-8h-xqS"/>
+                            <constraint firstItem="wiE-FK-Tz6" firstAttribute="centerX" secondItem="BZm-p6-mgy" secondAttribute="centerX" id="GrV-pO-mo3"/>
+                            <constraint firstItem="wiE-FK-Tz6" firstAttribute="top" secondItem="m47-7q-8Ff" secondAttribute="bottom" constant="255" id="pb3-WC-hzB"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="支持旋转" id="g39-ib-scT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zi0-2J-XsY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="452" y="591"/>
+            <point key="canvasLocation" x="452" y="590.55472263868069"/>
         </scene>
     </scenes>
 </document>

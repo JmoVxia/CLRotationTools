@@ -1,27 +1,27 @@
+
 //
-//  CLRotationTools.m
-//  CLControllerRotationToolsDemo
+//  UIViewController+CLRotation.m
+//  CLRotationToolsDemo
 //
-//  Created by JmoVxia on 2017/6/2.
+//  Created by JmoVxia on 2017/8/1.
 //  Copyright © 2017年 JmoVxia. All rights reserved.
 //
 
-#import "CLRotationTools.h"
+#import "UIViewController+CLRotation.h"
 #import <objc/message.h>
 #import "AppDelegate.h"
-@implementation CLRotationTools
-+ (void)needRotationViewController:(UIViewController *)needRotationViewController{
+@implementation UIViewController (CLRotation)
 
-    __weak typeof(UIViewController *) weakVC = needRotationViewController;
+- (void)isNeedRotation:(BOOL)needRotation{
     AppDelegate * appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    
+    __weak __typeof(self) weakSelf = self;
     IMP originalIMP = method_getImplementation(class_getInstanceMethod([appDelegate class], @selector(application:supportedInterfaceOrientationsForWindow:)));
     
     IMP newIMP = imp_implementationWithBlock(^(id obj, UIApplication *application, UIWindow *window){
-        if (!weakVC) {
+        if (!weakSelf) {
             class_replaceMethod([appDelegate class], @selector(application:supportedInterfaceOrientationsForWindow:), originalIMP, method_getTypeEncoding(class_getInstanceMethod([appDelegate class], @selector(application:supportedInterfaceOrientationsForWindow:))));
         }
-        return weakVC ? UIInterfaceOrientationMaskAll : UIInterfaceOrientationMaskPortrait;
+        return needRotation ? UIInterfaceOrientationMaskAll : UIInterfaceOrientationMaskPortrait;
     });
     
     class_replaceMethod([appDelegate class], @selector(application:supportedInterfaceOrientationsForWindow:), newIMP, method_getTypeEncoding(class_getInstanceMethod([appDelegate class], @selector(application:supportedInterfaceOrientationsForWindow:))));

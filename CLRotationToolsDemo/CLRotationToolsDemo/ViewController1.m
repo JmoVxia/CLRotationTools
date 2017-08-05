@@ -7,7 +7,7 @@
 //
 
 #import "ViewController1.h"
-#import "CLRotationTools.h"
+#import "UIViewController+CLRotation.h"
 
 @interface ViewController1 ()
 
@@ -18,9 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [CLRotationTools needRotationViewController:self];
+    [self isNeedRotation:YES];
 
 }
+
+- (IBAction)dissMiss:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
 
 
 
