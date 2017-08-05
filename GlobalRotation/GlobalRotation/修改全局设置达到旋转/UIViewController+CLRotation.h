@@ -10,6 +10,9 @@
 
 @interface UIViewController (CLRotation)
 
+/**
+ 是否需要旋转
+ */
 - (void)isNeedRotation:(BOOL)needRotation;
 
 @end

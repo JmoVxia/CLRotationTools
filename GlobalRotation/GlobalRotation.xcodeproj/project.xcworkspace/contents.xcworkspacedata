@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CLRotationToolsDemo.xcodeproj">
+      location = "self:GlobalRotation.xcodeproj">
    </FileRef>
 </Workspace>

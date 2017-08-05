@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  CLRotationToolsDemo
+//  GlobalRotation
 //
-//  Created by JmoVxia on 2017/6/2.
+//  Created by JmoVxia on 2017/8/5.
 //  Copyright © 2017年 JmoVxia. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    ViewController *vc = [ViewController new];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

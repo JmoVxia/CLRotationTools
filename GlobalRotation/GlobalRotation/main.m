@@ -1,8 +1,8 @@
 //
 //  main.m
-//  CLRotationToolsDemo
+//  GlobalRotation
 //
-//  Created by JmoVxia on 2017/6/2.
+//  Created by JmoVxia on 2017/8/5.
 //  Copyright © 2017年 JmoVxia. All rights reserved.
 //
 
