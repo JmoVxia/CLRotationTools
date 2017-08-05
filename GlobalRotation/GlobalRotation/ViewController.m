@@ -18,6 +18,10 @@
     [super viewDidLoad];
 
 }
+- (IBAction)push:(id)sender {
+}
+- (IBAction)push:(id)sender {
+}
 
 - (IBAction)change:(UIButton*)sender {
     sender.selected = !sender.selected;
