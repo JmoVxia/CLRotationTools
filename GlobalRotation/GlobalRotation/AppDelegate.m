@@ -16,12 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    ViewController *vc = [ViewController new];
-    self.window.rootViewController = vc;
+    UINavigationController *nc = [UINavigationController new];
+    [nc addChildViewController:[ViewController new]];
+    self.window.rootViewController = nc;
     [self.window makeKeyAndVisible];
-    
-    
     return YES;
 }
 

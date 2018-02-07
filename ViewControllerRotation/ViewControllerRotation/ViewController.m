@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = @"不支持旋转";
+    self.navigationItem.title = @"控制器自我管理实现页面旋转";
 
     UIButton *button1 = [[UIButton alloc] initWithFrame:CGRectMake(99, 99, 99, 99)];
     button1.CLcenterY = self.view.CLcenterY;
