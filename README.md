@@ -31,7 +31,7 @@ class_replaceMethod([appDelegate class], @selector(application:supportedInterfac
 
 # 效果图
 
-![效果图](https://github.com/JmoVxia/CLRotationTools/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
+![效果图](http://upload-images.jianshu.io/upload_images/1979970-0eb805f77c9f98a0.gif?imageMogr2/auto-orient/strip)
 
 
 # 总结
